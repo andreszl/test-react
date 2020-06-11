@@ -1,0 +1,28 @@
+{
+  "compilerOptions": {
+    "target": "es2017",
+    "module": "commonjs",
+    "jsx": "react",
+    "outDir": "./build/",
+    "removeComments": true,    
+    "strict": false,
+    "noImplicitAny": false,
+    "strictNullChecks": true,
+    "strictFunctionTypes": true,
+    "strictBindCallApply": true,
+    "strictPropertyInitialization": true,
+    "noImplicitThis": true,
+    "alwaysStrict": true,
+    "types" : ["node", "jest"],
+    "esModuleInterop": true,
+    "resolveJsonModule": true
+  },
+  "include": ["./api/*"],
+  "exclude": [
+    "node_modules",
+    "**/*.spec.ts",
+    "/client/"
+  ]
+}
+
+

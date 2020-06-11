@@ -1,0 +1,18 @@
+{   
+  "mongo": {
+    "host": "localhost",
+    "port": 27017,
+    "dbname": "base-project"
+  },
+  "express": {
+    "host": "localhost",
+    "port": 3210
+  },
+  "graphql": {
+    "path": "/graphql"
+  },
+  "jwt":"base-project",
+  "public": "client/public",
+  "assets": "client/src/assets",
+  "host": "http://localhost:3210"
+}
