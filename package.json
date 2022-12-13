@@ -100,7 +100,7 @@
     "consolidate": "^0.15.1",
     "cors": "^2.8.5",
     "currency-formatter": "^1.5.5",
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "faker": "^4.1.0",
     "graphql": "^14.6.0",
     "graphql-tag": "^2.10.1",
